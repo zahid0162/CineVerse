@@ -1,14 +1,14 @@
-# MovieFlix - React Native Movie App
+# CineVerse - React Native Movie App
 
 A modern, feature-rich movie discovery app built with React Native and Expo, powered by The Movie Database (TMDB) API.
 
 ## 🎬 Features
 
 ### Core Functionality
-- **Browse Movies**: Discover popular, now playing, top rated, and upcoming movies
+- **Browse Movies/TV Shows**: Discover popular, now playing, top rated, and upcoming movies
 - **Search**: Search movies by title with real-time results
 - **Genre Filtering**: Browse movies by specific genres
-- **Movie Details**: Comprehensive movie information including cast, crew, trailers, and production details
+- **Movie/TV Show Details**: Comprehensive movie information including cast, crew, trailers, and production details
 - **Watchlist**: Save movies to your personal watchlist with local storage
 - **User Profile**: Track your movie preferences and watchlist statistics
 
@@ -57,8 +57,6 @@ app/
 
 ### Data Management
 - **API Integration**: RESTful API calls with Axios
-- **Local Storage**: AsyncStorage for offline data persistence
-- **Caching Strategy**: Efficient data loading and caching
 - **Real-time Updates**: Live search and data synchronization
 
 ## 🚀 Getting Started
@@ -142,16 +140,16 @@ app/
 ### The Movie Database (TMDB)
 - **Endpoint**: `https://api.themoviedb.org/3`
 - **Features Used**:
-  - Popular Movies
-  - Now Playing Movies
-  - Top Rated Movies
-  - Upcoming Movies
-  - Movie Search
-  - Movie Details
-  - Movie Credits
-  - Movie Videos
+  - Popular Movies/TV Shows
+  - Now Playing Movies/TV Shows
+  - Top Rated Movies/TV Shows
+  - Upcoming Movies/TV Shows
+  - Movie/TV Shows Search
+  - Movie/TV Shows Details
+  - Movie/TV Shows Credits
+  - Movie/TV Shows Videos
   - Genre List
-  - Discover Movies by Genre
+  - Discover Movies/TV Shows by Genre
 
 ### API Key
 The app uses a demo API key for TMDB. In production, you should:
@@ -192,7 +190,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-For support, email support@movieflix.com or create an issue in the repository.
+For support, email zaidmuneer25@gmail.com or create an issue in the repository.
 
 ---
 
